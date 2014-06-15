@@ -1,4 +1,4 @@
-djru.github.io
+Dan Ruswick's Portfolio
 ==============
 
-My portfolio hosted on github
+My portfolio hosted on Github.
