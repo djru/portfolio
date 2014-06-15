@@ -61,18 +61,20 @@ body{
 h1{
   margin-top: 10%;
   font-size: 6em;
-  -webkit-animation: .25s dropdown;
-  -moz-animation: .25s dropdown;
+  -webkit-animation: 2.5s dropdown;
+  -moz-animation: 2.5s dropdown;
 }
 
 h2{ font-size: 1.6em; }
 
 @-webkit-keyframes dropdown{
-  from { margin-top: -40px;}
-  to {margin-top: 0;}
+  0% { margin-top: -10px;}
+  90% { margin-top: -10px;}
+  100% {margin-top: 0;}
 }
 
 @-moz-keyframes dropdown{
-  from { margin-top: -40px;}
-  to {margin-top: 0;}
+  0% { margin-top: -10px;}
+  90% { margin-top: -10px;}
+  100% {margin-top: 0;}
 }
