@@ -94,6 +94,7 @@ div#arrow{
   left: 48%;
   font-size: 3em;
   color: black;
+  display: none;
 }
 
 
