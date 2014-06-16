@@ -100,3 +100,9 @@ div#content{
   0% { padding-top: 110px; opacity: 0;}
   100% {padding-top: 130px; opacity: 1;}
 }
+
+
+@media (max-width: 500px) {
+  div#splash{ color: white; }
+  div#splash h1{ font-size: 3em; }
+}
