@@ -4,6 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,100,700,200);
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -50,16 +51,6 @@ table {
 
 
 
-body{
-  
-  font-family: 'Helvetica Neue', arial, sans-serif;
-}
-
-h1{
-  font-size: 6em;
-}
-
-h2{ font-size: 1.6em; }
 
 div#splash{
   position: absolute;
@@ -69,6 +60,7 @@ div#splash{
   background-size: cover;
   text-align: center;
   font-weight: 100; 
+  font-family: 'Raleway', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
 }
 
 div#header{
@@ -80,6 +72,12 @@ div#header.active{
   -webkit-animation: 1s dropdown forwards;
   -moz-animation: 1s dropdown forwards;
 }
+
+div#splash #header h1{
+  font-size: 6em;
+}
+
+div#splash #header h2{ font-size: 1.6em; }
 
 div#content{
   width: 100%;
