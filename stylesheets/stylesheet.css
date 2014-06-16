@@ -88,15 +88,6 @@ div#content{
   line-height: 1.7em;
 }
 
-div#arrow{
-  position: absolute;
-  bottom: 10px;
-  left: 48%;
-  font-size: 3em;
-  color: black;
-  display: none;
-}
-
 
 @-webkit-keyframes dropdown{
   0% { padding-top: 110px; opacity: 0;}
