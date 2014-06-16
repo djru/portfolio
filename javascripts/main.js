@@ -2,7 +2,7 @@ console.log('This would be the main JS file.');
 
 window.onscroll = function(){
   document.querySelector('#header').style['margin-top'] = (window.pageYOffset * -2) + 'px';
-  document.querySelector('#arrow').style['padding-bottom'] = (window.pageYOffset * 2 + 10) + 'px';
+  document.querySelector('#arrow').style['bottom'] = (window.pageYOffset * 2 + 10) + 'px';
   };
 
 window.onload = function(){
