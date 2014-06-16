@@ -1,5 +1,6 @@
 console.log('This would be the main JS file.');
 
+window.onscroll = function(){document.querySelector('#header').style['margin-top'] = (window.pageYOffset * -2) + 'px'}
 
 window.onload = function(){
   document.querySelector("div#splash").style['height'] = window.innerHeight + 'px';
