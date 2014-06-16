@@ -64,6 +64,12 @@ h1{
 
 h2{ font-size: 1.6em; }
 
+div#splash{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 div#header{
   margin-top: 0;
   opacity: 0;
