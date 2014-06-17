@@ -92,6 +92,11 @@ table {
   width: 90%;
   max-width: 420px;
   margin: 0 auto;
+  display: none;
+}
+
+#content #main-text.visible{
+  display: block;
 }
 
 
