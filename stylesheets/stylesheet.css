@@ -82,6 +82,7 @@ table {
 #content{
   width: 100%;
   position: absolute;
+  padding: 10% 0;
 }
 
 #content #main-text{
@@ -89,7 +90,7 @@ table {
   box-sizing: border-box;
   line-height: 1.7em;
   width: 90%;
-  max-width: 300px;
+  max-width: 420px;
   margin: 0 auto;
 }
 
