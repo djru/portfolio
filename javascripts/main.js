@@ -9,6 +9,7 @@ window.onload = function(){
   document.querySelector("#content").style['min-height'] = window.innerHeight + 'px';
   document.querySelector("#content").style['top'] = window.innerHeight + 'px';
   document.querySelector('#header').classList.add('active');
+  document.querySelector('#main-content').classList.add('visible');
   };
 
 window.onresize = function(){
