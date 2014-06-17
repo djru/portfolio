@@ -52,7 +52,7 @@ table {
 
 
 
-div#splash{
+#splash{
   position: absolute;
   top: 0;
   width: 100%;
@@ -63,29 +63,34 @@ div#splash{
   font-family: 'Raleway', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
 }
 
-div#header{
+#header{
   margin-top: 0;
   opacity: 0;
 }
 
-div#header.active{
+#header.active{
   -webkit-animation: 1s dropdown forwards;
   -moz-animation: 1s dropdown forwards;
 }
 
-div#splash #header h1{
+#splash #header h1{
   font-size: 6em;
 }
 
-div#splash #header h2{ font-size: 1.6em; }
+#splash #header h2{ font-size: 1.6em; }
 
-div#content{
+#content{
   width: 100%;
   position: absolute;
-  padding: 10% 35%;
+}
+
+#content #main-text{
   font-size: 1.2em;
   box-sizing: border-box;
   line-height: 1.7em;
+  width: 90%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 
