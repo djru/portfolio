@@ -83,6 +83,7 @@ table {
   width: 100%;
   position: absolute;
   padding: 10% 0;
+  box-sizing: border-box;
 }
 
 #content #main-text{
@@ -99,6 +100,50 @@ table {
   display: block;
 }
 
+p{
+	margin-bottom: 30px;
+}
+
+.links a:not(:last-child) {
+	margin-right: 20px;
+}
+
+hr{
+	margin: 20px auto;
+	width: 70px;
+	border-color: transparent;
+	border-top-color: black;
+}
+
+.me{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	background: url('../images/me.jpg');
+	background-size: cover;
+	background-position: center 23%;
+	margin: 0 auto 50px;
+}
+
+p.links {
+	padding: 10px 0;
+}
+
+.label {
+  font-size: 1.2em;
+  border-bottom: 1px dashed black;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+a, a:hover, a:visited{
+	color: black !important;
+	background: yellow;
+}
+
+.bold{
+	font-weight: bold;
+}
 
 @-webkit-keyframes dropdown{
   0% { padding-top: 110px; opacity: 0;}
