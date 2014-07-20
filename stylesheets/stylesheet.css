@@ -157,7 +157,7 @@ a, a:hover, a:visited{
 }
 
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   #splash{ color: white; }
   #splash h1{ font-size: 3em; }
   #main-content{ margin-top: 0 !important; }
