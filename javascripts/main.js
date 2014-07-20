@@ -1,7 +1,7 @@
 console.log('This would be the main JS file.');
 
 window.onscroll = function(){
-  document.querySelector('#header').style['margin-top'] = (window.pageYOffset * .5) + 'px';
+  document.querySelector('#header').style['margin-top'] = (window.pageYOffset * -.5) + 'px';
   if(window.pageYOffset < window.innerHeight/1.4){
     document.querySelector('#main-text').style['margin-top'] = ((window.innerHeight/1.4 - window.pageYOffset)*.6) + 'px';
     }
