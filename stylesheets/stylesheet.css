@@ -82,7 +82,7 @@ table {
 #content{
   width: 100%;
   position: absolute;
-  padding: 10% 0;
+  padding: 6% 0 10%;
   box-sizing: border-box;
 }
 
