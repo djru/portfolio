@@ -1,10 +1,8 @@
 console.log('This would be the main JS file.');
 
 window.onscroll = function(){
-  document.querySelector('#header').style['transform'] = 'translateY(' + (window.pageYOffset * -.5) + 'px)';
-  if(window.pageYOffset < window.innerHeight/1.4){
-    document.querySelector('#main-text').style['transform'] = 'translateY(' + ((window.innerHeight/1.4 - window.pageYOffset)*.6) + 'px)';
-    }
+  document.querySelector('#header').style['transform'] = 'translateY(' + (window.pageYOffset * -.5) + 'px) ' + 'scale(' + 1/(window.pageYOffset/50 + 1) + ')';
+
   };
 
 window.onload = function(){
