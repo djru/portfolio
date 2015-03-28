@@ -8,11 +8,13 @@ var m = document.querySelector('#main-text');
 window.onscroll = function(){
   var offset = window.pageYOffset;
   var maxOffset = window.innerHeight/4;
+  if (offset >= 0){
   header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   header.style['-webkit-transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   if(offset <= maxOffset){
     m.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
     m.style['-webkit-transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
+  }
   }
 };
 
