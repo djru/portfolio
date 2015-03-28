@@ -1,32 +1,31 @@
-console.log('This would be the main JS file.');
+var header = document.querySelector('#header');
+var content = document.querySelector('#content');
+var splash = document.querySelector("#splash");
+var header = document.querySelector('#header');
 
 window.onscroll = function(){
-  document.querySelector('#header').style['transform'] = 'translateY(' + (window.pageYOffset * -.5) + 'px) ' + 'scale(' + 1/(window.pageYOffset/50 + 1) + ')';
-
-  };
+  var offset = window.pageYOffset;
+  header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/50 + 1) + ')';
+  var maxOffset = 600;
+  if(offset <= maxOffset){
+    content.style['transform'] = 'translateY(' +  Math.floor(offset/2) + 'px)';
+  }
+};
 
 window.onload = function(){
   var iHeight = window.innerHeight;
-  document.querySelector("#splash").style['height'] = iHeight + 'px';
-  
-  var content = document.querySelector("#content");
+  splash.style['height'] = iHeight + 'px';
   content.style['min-height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
-  
-  var header = document.querySelector('#header');
-  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 11em)';
+  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
   
   document.querySelector('#main-text').classList.remove('invisible');
   };
 
 window.onresize = function(){
   var iHeight = window.innerHeight;
-  document.querySelector("#splash").style['height'] = iHeight + 'px';
-  
-  var content = document.querySelector("#content");
+  splash.style['height'] = iHeight + 'px';
   content.style['min-height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
-  
-  var header = document.querySelector('#header');
-  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 11em)';
+  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
 }
