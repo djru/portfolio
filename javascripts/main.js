@@ -7,6 +7,7 @@ var main = document.querySelector('#main-text');
 
 window.onscroll = function(){
   var offset = window.pageYOffset;
+  var maxOffset = window.innerHeight/4;
   header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   header.style['-webkit-transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   if(offset <= maxOffset){
