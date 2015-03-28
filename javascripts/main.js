@@ -5,11 +5,12 @@ var splash = document.querySelector('#splash');
 var header = document.querySelector('#header');
 var main = document.querySelector('#main-text');
 
+  var maxOffset = window.pageYOffset/3;
+
 
 window.onscroll = function(){
   var offset = window.pageYOffset;
   header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/50 + 1) + ')';
-  var maxOffset = 600;
   if(offset <= maxOffset){
     main.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
   }
