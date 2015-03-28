@@ -3,7 +3,7 @@ var header = document.querySelector('#header');
 var content = document.querySelector('#content');
 var splash = document.querySelector('#splash');
 var header = document.querySelector('#header');
-var main = document.querySelector('#main-text');
+var m = document.querySelector('#main-text');
 
 window.onscroll = function(){
   var offset = window.pageYOffset;
@@ -11,8 +11,8 @@ window.onscroll = function(){
   header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   header.style['-webkit-transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   if(offset <= maxOffset){
-    main.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
-    main.style['-webkit-transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
+    m.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
+    m.style['-webkit-transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
   }
 };
 
@@ -24,11 +24,11 @@ window.onload = function(){
   content.style['top'] = iHeight + 'px';
   content.style['min-height'] = iHeight + 'px';
   console.log(content.style.height);
-  content.style['height'] = (main.clientHeight -  Math.floor(maxOffset/0.5) + 100) + 'px';
+  content.style['height'] = (m.clientHeight -  Math.floor(maxOffset/0.5) + 100) + 'px';
   console.log(content.style.height);
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
   
-  main.classList.remove('invisible');
+  m.classList.remove('invisible');
   };
 
 window.onresize = function(){
