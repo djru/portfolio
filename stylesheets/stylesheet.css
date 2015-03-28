@@ -64,12 +64,6 @@ table {
 
 #header{
   margin-top: 0;
-  opacity: 0;
-}
-
-#header.active{
-  -webkit-animation: 1s dropdown forwards;
-  -moz-animation: 1s dropdown forwards;
 }
 
 #splash #header h1{
@@ -97,14 +91,9 @@ table {
   margin: 0 auto;
   border: 1px solid lightgray;
   box-shadow: 1px 1px 1px lightgray;
-  display: none;
   font-family: 'PT Serif', 'Raleway', 'Source Sans Pro', serif;
-}
-
-#content #main-text.visible{
   display: block;
 }
-
 p{
 	margin-bottom: 30px;
 }
@@ -148,16 +137,6 @@ a, a:hover, a:visited{
 
 .bold{
   font-weight: bold;
-}
-
-@-webkit-keyframes dropdown{
-  0% { padding-top: 110px; opacity: 0;}
-  100% {padding-top: 130px; opacity: 1;}
-}
-
-@-moz-keyframes dropdown{
-  0% { padding-top: 110px; opacity: 0;}
-  100% {padding-top: 130px; opacity: 1;}
 }
 
 
