@@ -1,15 +1,17 @@
 (function(){
 var header = document.querySelector('#header');
 var content = document.querySelector('#content');
-var splash = document.querySelector("#splash");
+var splash = document.querySelector('#splash');
 var header = document.querySelector('#header');
+var main = document.querySelector('#main-text');
+
 
 window.onscroll = function(){
   var offset = window.pageYOffset;
   header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/50 + 1) + ')';
   var maxOffset = 600;
   if(offset <= maxOffset){
-    content.style['transform'] = 'translateY(' +  Math.floor(offset/2) + 'px)';
+    main.style['transform'] = 'translateY(' +  Math.floor(offset/-2) + 'px)';
   }
 };
 
@@ -20,7 +22,7 @@ window.onload = function(){
   content.style['top'] = iHeight + 'px';
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
   
-  document.querySelector('#main-text').classList.remove('invisible');
+  main.classList.remove('invisible');
   };
 
 window.onresize = function(){
