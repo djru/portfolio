@@ -5,7 +5,7 @@ var splash = document.querySelector('#splash');
 var header = document.querySelector('#header');
 var main = document.querySelector('#main-text');
 
-  var maxOffset = window.pageYOffset/3;
+var maxOffset = window.innerHeight/3;
 
 
 window.onscroll = function(){
