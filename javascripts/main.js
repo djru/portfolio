@@ -11,7 +11,7 @@ window.onscroll = function(){
   header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/50 + 1) + ')';
   var maxOffset = 600;
   if(offset <= maxOffset){
-    main.style['transform'] = 'translateY(' +  Math.floor(offset/-2) + 'px)';
+    main.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
   }
 };
 
