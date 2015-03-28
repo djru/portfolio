@@ -8,6 +8,10 @@ var m = document.querySelector('#main-text');
 var isMobile = false;
 isMobile = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone|iPad|iPod/i) ;
 
+if(isMobile){
+  body.classList.append('mobile');
+}
+
 window.onscroll = function(){
   var offset = window.pageYOffset;
   var maxOffset = window.innerHeight/4;
@@ -35,12 +39,12 @@ window.onload = function(){
   };
 
 window.onresize = function(){
+  if(!isMobile){
   var iHeight = window.innerHeight;
-  
   splash.style['height'] = iHeight + 'px';
   content.style['min-height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
-  
+  }
 }
 }, false);
