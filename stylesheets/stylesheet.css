@@ -148,5 +148,6 @@ a, a:hover, a:visited{
 @media all and (max-device-width: 700px) {
   #splash{ color: white; }
   #splash h1{ font-size: 3em; }
-  #main-text{ margin-top: 0 !important; }
+  #main-text{ margin-top: 0 !important;   max-width: 700px;
+  font-size: 1.4em;}
 }
