@@ -9,7 +9,7 @@ var isMobile = false;
 isMobile = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone|iPad|iPod/i) ;
 
 if(isMobile){
-  document.body.classList.append('mobile');
+  document.body.classList.add('mobile');
 }
 
 window.onscroll = function(){
