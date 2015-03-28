@@ -6,15 +6,25 @@ window.onscroll = function(){
   };
 
 window.onload = function(){
-  document.querySelector("#splash").style['height'] = window.innerHeight + 'px';
-  document.querySelector("#content").style['min-height'] = window.innerHeight + 'px';
-  document.querySelector("#content").style['top'] = window.innerHeight + 'px';
-  document.querySelector('#header').classList.add('active');
-  document.querySelector('#main-text').classList.add('visible');
+  var iHeight = window.innerHeight;
+  document.querySelector("#splash").style['height'] = iHeight + 'px';
+  
+  var content = document.querySelector("#content");
+  content.style['min-height'] = iHeight + 'px';
+  content.style['top'] = iHeight + 'px';
+  
+  var header = document.querySelector('#header');
+  header.style['margin-top'] = 'calc(' + iHeight/2 + 'px - 11em)';
   };
 
 window.onresize = function(){
-  document.querySelector("#splash").style['height'] = window.innerHeight + 'px';
-  document.querySelector("#content").style['min-height'] = window.innerHeight + 'px';
-  document.querySelector("#content").style['top'] = window.innerHeight + 'px';
+  var iHeight = window.innerHeight;
+  document.querySelector("#splash").style['height'] = iHeight + 'px';
+  
+  var content = document.querySelector("#content");
+  content.style['min-height'] = iHeight + 'px';
+  content.style['top'] = iHeight + 'px';
+  
+  var header = document.querySelector('#header');
+  header.style['margin-top'] = 'calc(' + iHeight/2 + 'px - 11em)';
 }
