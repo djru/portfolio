@@ -6,6 +6,7 @@ var header = document.querySelector('#header');
 var main = document.querySelector('#main-text');
 
 var maxOffset = window.innerHeight/3;
+content.style['height'] = (content.clientHeight -  Math.floor(maxOffset/-0.5) + 50) + 'px';
 
 
 window.onscroll = function(){
