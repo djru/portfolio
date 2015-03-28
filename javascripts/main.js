@@ -21,7 +21,6 @@ window.onload = function(){
   var maxOffset = window.innerHeight/4;
   
   splash.style['height'] = iHeight + 'px';
-  content.style['min-height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
   content.style['height'] = (content.clientHeight -  Math.floor(maxOffset/0.5)) + 'px !important';
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
