@@ -15,6 +15,8 @@ window.onload = function(){
   
   var header = document.querySelector('#header');
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 11em)';
+  
+  document.querySelector('#main-content').classList.remove('invisible');
   };
 
 window.onresize = function(){
