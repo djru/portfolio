@@ -23,7 +23,7 @@ window.onload = function(){
   splash.style['height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
   content.style['min-height'] = iHeight + 'px';
-  content.style['height'] = m.clientHeight + 100 + 'px';
+  content.style['height'] = content.clientheight - 100 + 'px';
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
   
   m.classList.remove('invisible');
