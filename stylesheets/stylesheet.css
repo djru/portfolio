@@ -64,6 +64,7 @@ table {
 
 #header{
   margin-top: 0;
+  height: 200px;
 }
 
 #splash #header h1{
@@ -137,6 +138,10 @@ a, a:hover, a:visited{
 
 .bold{
   font-weight: bold;
+}
+
+.invisible {
+	display: none !important;
 }
 
 
