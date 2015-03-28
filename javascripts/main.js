@@ -5,13 +5,13 @@ var splash = document.querySelector('#splash');
 var header = document.querySelector('#header');
 var main = document.querySelector('#main-text');
 
-var maxOffset = window.innerHeight/3;
+var maxOffset = window.innerHeight/4;
 content.style['height'] = (content.clientHeight -  Math.floor(maxOffset/0.5) + 50) + 'px';
 
 
 window.onscroll = function(){
   var offset = window.pageYOffset;
-  header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/50 + 1) + ')';
+  header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   if(offset <= maxOffset){
     main.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
   }
