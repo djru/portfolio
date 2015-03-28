@@ -1,3 +1,4 @@
+(function(){
 var header = document.querySelector('#header');
 var content = document.querySelector('#content');
 var splash = document.querySelector("#splash");
@@ -29,3 +30,4 @@ window.onresize = function(){
   content.style['top'] = iHeight + 'px';
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
 }
+})();
