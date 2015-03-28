@@ -14,7 +14,7 @@ window.onload = function(){
   content.style['top'] = iHeight + 'px';
   
   var header = document.querySelector('#header');
-  header.style['margin-top'] = 'calc(' + iHeight/2 + 'px - 11em)';
+  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 11em)';
   };
 
 window.onresize = function(){
@@ -26,5 +26,5 @@ window.onresize = function(){
   content.style['top'] = iHeight + 'px';
   
   var header = document.querySelector('#header');
-  header.style['margin-top'] = 'calc(' + iHeight/2 + 'px - 11em)';
+  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 11em)';
 }
