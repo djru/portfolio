@@ -35,5 +35,7 @@ window.onresize = function(){
   content.style['min-height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
+  
+  content.style['height'] = (content.clientHeight -  Math.floor(maxOffset/0.5)) + 'px !important';
 }
 })();
