@@ -25,7 +25,7 @@ window.onload = function(){
   content.style['min-height'] = iHeight + 'px';
   console.log(content.style['height']);
   console.log(m);
-  console.log(m.offsetHeight);
+  console.log(document.querySelector('#main-text').offsetHeight);
   content.style['height'] = (m.clientHeight - Math.floor(maxOffset/0.5) + 100) + 'px';
   console.log((m.clientHeight - Math.floor(maxOffset/0.5) + 100) + 'px');
   console.log(content.style['height']);
