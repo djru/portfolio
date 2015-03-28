@@ -9,11 +9,14 @@ var maxOffset = window.innerHeight/4;
 content.style['height'] = (content.clientHeight -  Math.floor(maxOffset/0.5)) + 'px';
 
 
+
 window.onscroll = function(){
   var offset = window.pageYOffset;
   header.style['transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
+  header.style['-webkit-transform'] = 'translateY(' + (offset * -.5) + 'px) ' + 'scale(' + 1/(offset/40 + 1) + ')';
   if(offset <= maxOffset){
     main.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
+    main.style['-webkit-transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
   }
 };
 
