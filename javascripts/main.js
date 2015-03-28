@@ -6,9 +6,6 @@ var header = document.querySelector('#header');
 var main = document.querySelector('#main-text');
 
 var maxOffset = window.innerHeight/4;
-content.style['height'] = (content.clientHeight -  Math.floor(maxOffset/0.5)) + 'px';
-
-
 
 window.onscroll = function(){
   var offset = window.pageYOffset;
@@ -26,6 +23,8 @@ window.onload = function(){
   content.style['min-height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
   header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
+  
+  content.style['height'] = (content.clientHeight -  Math.floor(maxOffset/0.5)) + 'px !important';
   
   main.classList.remove('invisible');
   };
