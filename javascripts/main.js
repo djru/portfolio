@@ -16,9 +16,18 @@ window.onscroll = function(){
   var iHeight = window.innerHeight;
   var offset = window.pageYOffset;
   var maxOffset = iHeight/4;
+  var translate =  Math.floor(offset * .4);
+  
+  if(isMobile){
+    var scale = (1/(offset/60 + 1)).toFixed(2);
+  }
+  else{
+    var scale =  (1/(offset/100 + 1)).toFixed(2);
+  }
+  
   if (offset >= 0 && offset <= iHeight){
-  header.style['transform'] = 'translateY(' + Math.floor(offset * .4) + 'px) ' + 'scale(' + (1/(offset/100 + 1)).toFixed(2) + ')';
-  header.style['-webkit-transform'] = 'translateY(' + Math.floor(offset * .4) + 'px) ' + 'scale(' + (1/(offset/100 + 1)).toFixed(2) + ')';
+  header.style['transform'] = 'translateY(' + translate + 'px) ' + 'scale(' + scale + ')';
+  header.style['-webkit-transform'] = 'translateY(' + translate + 'px) ' + 'scale(' + scale + ')';
   //if(offset <= maxOffset){
    // m.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
    // m.style['-webkit-transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
