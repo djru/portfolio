@@ -16,7 +16,7 @@ window.onscroll = function(){
   var iHeight = window.innerHeight;
   var offset = window.pageYOffset;
   var maxOffset = iHeight/4;
-  if (offset >= 0 && offset <= iHeight  && !isMobile){
+  if (offset >= 0 && offset <= iHeight){
   header.style['transform'] = 'translateY(' + (offset * .4) + 'px) ' + 'scale(' + 1/(offset/100 + 1) + ')';
   header.style['-webkit-transform'] = 'translateY(' + (offset * .4) + 'px) ' + 'scale(' + 1/(offset/100 + 1) + ')';
   //if(offset <= maxOffset){
