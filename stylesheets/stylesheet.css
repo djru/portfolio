@@ -152,3 +152,12 @@ a, a:hover, a:visited{
   	min-width: 90% !important;
   	font-size: 1.4em !important;}
 }
+
+.isMobile #splash h1{ font-size: 3em; }
+
+.isMobile #main-text{
+  	margin-top: 0 !important;   
+  	min-width: 90% !important;
+  	font-size: 1.4em !important;
+  	font-size: 1.6em !important;
+}
