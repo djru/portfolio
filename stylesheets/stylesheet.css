@@ -169,5 +169,5 @@ a, a:hover, a:visited{
 }
 
 .isMobile #header{
-	  font-size: 1.3em;
+  font-size: 1.3em !important;
 }
