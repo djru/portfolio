@@ -167,3 +167,7 @@ a, a:hover, a:visited{
   border-radius: 200px;
   margin-bottom: 100px;
 }
+
+.isMobile #header{
+	  font-size: 1.3em;
+}
