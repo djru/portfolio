@@ -150,7 +150,7 @@ a, a:hover, a:visited{
   #main-text{
   	margin-top: 0 !important;   
   	min-width: 90% !important;
-  	font-size: 1.4em !important;}
+  	font-size: 2.5em !important;}
 }
 
 .isMobile #splash h1{ font-size: 3em; }
@@ -158,6 +158,12 @@ a, a:hover, a:visited{
 .isMobile #main-text{
   	margin-top: 0 !important;   
   	min-width: 90% !important;
-  	font-size: 1.4em !important;
-  	font-size: 1.6em !important;
+  	font-size: 2.5em !important;
+}
+
+.isMobile .me{
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  margin-bottom: 100px;
 }
