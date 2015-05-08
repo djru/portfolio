@@ -19,7 +19,7 @@ window.onscroll = function(){
   var translate =  Math.floor(offset * .4);
   
   if(isMobile){
-    var scale = (1/(offset/200 + 1)).toFixed(2);
+    var scale = (1/(offset/300 + 1)).toFixed(2);
   }
   else{
     var scale =  (1/(offset/100 + 1)).toFixed(2);
