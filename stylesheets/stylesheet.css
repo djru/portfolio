@@ -93,7 +93,8 @@ table {
   background: #EFEFEF;
 }
 
-#content #main-text{
+
+#content .section{
   background: white;
   font-size: 16px;
   box-sizing: border-box;
