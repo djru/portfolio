@@ -124,13 +124,14 @@ hr{
 }
 
 .me{
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
+	height: 250px;
+	width: 250px;
+	border-radius: 250px;
 	background: url('../images/me.jpg');
 	background-size: cover;
 	background-position: center 23%;
 	margin: 0 auto 50px;
+	box-shadow: 0 0 7px rgb(139, 139, 139);
 }
 
 p.links {
