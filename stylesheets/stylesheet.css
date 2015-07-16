@@ -56,10 +56,15 @@ table {
   position: absolute;
   top: 0;
   width: 100%;
-  background: radial-gradient(ellipse at center, rgba(199,199,199,1) 0%, rgba(199,199,199,1) 12%, rgba(239,239,239,1) 63%, rgba(239,239,239,1) 100%);background-size: cover;
-  text-align: center;
+  background: linear-gradient(to bottom, #5912e8 2%,#972fed 100%)  text-align: center;
   font-weight: 100; 
   font-family: 'Raleway', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
 }
 
 #header{
