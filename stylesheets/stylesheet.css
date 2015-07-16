@@ -53,12 +53,8 @@ table {
 
 
 #splash{
-  position: absolute;
-  top: 0;
-  width: 100%;
   background: linear-gradient(to bottom, #5912e8 2%,#972fed 100%);
   color: white;
-  font-weight: 100; 
   font-family: 'Raleway', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
   display: flex;
   justify-content: center;
@@ -69,19 +65,18 @@ table {
   -webkit-align-items: center;
 }
 
-#splash #header h1{
+#header h1{
   font-size: 6em;
+  font-weight: 100; 
 }
 
-#splash #header h2{ 
+#header h2{ 
   font-size: 1.6em; 
   padding-left: 6px;
   font-weight: 600;
 }
 
 #content{
-  width: 100%;
-  position: absolute;
   padding: 6% 0 10%;
   box-sizing: border-box;
 }
@@ -90,7 +85,7 @@ table {
 #content .section{
   font-size: 16px;
   box-sizing: border-box;
-  width: 100%;
+
   max-width: 800px;
   padding: 30px 40px 0;
   margin: 20px auto 0;
