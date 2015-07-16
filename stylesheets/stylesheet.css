@@ -98,21 +98,6 @@ p{
 	font-size: 1.3em;
 }
 
-.links a:not(:last-child) {
-	margin-right: 20px;
-}
-
-hr{
-	margin: 20px auto;
-	width: 70px;
-	border-color: transparent;
-	border-top-color: black;
-}
-
-
-p.links {
-	padding: 10px 0;
-}
 
 .label {
   font-size: 2em;
@@ -133,7 +118,17 @@ a, a:visited{
   font-weight: bold;
 }
 
-.invisible {
-	display: none !important;
+.links-icons img {
+    height: 64px;
+    -webkit-filter: hue-rotate(210deg);
+    margin: 0 20px;
+}
+
+.links-icons {
+    text-align: center;
+}
+
+.links-icons a:hover {
+    background: none !important;
 }
 
