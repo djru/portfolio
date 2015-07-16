@@ -60,6 +60,13 @@ table {
   color: white;
   font-weight: 100; 
   font-family: 'Raleway', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
 }
 
 #splash #header h1{
