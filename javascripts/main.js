@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
-var header = document.querySelector('#header');
-var content = document.querySelector('#content');
 var splash = document.querySelector('#splash');
-var m = document.querySelector('#main-text');
+var header = document.querySelector('#header');
 
 var isMobile = false;
 isMobile = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone|iPad|iPod/i) ;
@@ -27,10 +25,6 @@ window.onscroll = function(){
   if (offset >= 0 && offset <= iHeight){
   header.style['transform'] = 'translateY(' + translate + 'px) ' + 'scale(' + scale + ')';
   header.style['-webkit-transform'] = 'translateY(' + translate + 'px) ' + 'scale(' + scale + ')';
-  //if(offset <= maxOffset){
-   // m.style['transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
-   // m.style['-webkit-transform'] = 'translateY(' +  Math.floor(offset/-0.5) + 'px)';
-  //}
   }
 };
 
@@ -39,9 +33,7 @@ window.onload = function(){
   var maxOffset = window.innerHeight/4;
   
   splash.style['height'] = iHeight + 'px';
-  content.style['top'] = iHeight + 'px';
-  content.style['min-height'] = iHeight + 'px';
-  content.style['height'] = content.clientheight - 100 + 'px';
+
   
   m.classList.remove('invisible');
   };
@@ -50,8 +42,6 @@ window.onresize = function(){
   if(!isMobile){
   var iHeight = window.innerHeight;
   splash.style['height'] = iHeight + 'px';
-  content.style['min-height'] = iHeight + 'px';
-  content.style['top'] = iHeight + 'px';
   }
 }
 }, false);
