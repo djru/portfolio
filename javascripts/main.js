@@ -32,6 +32,8 @@ window.onload = function(){
   var iHeight = window.innerHeight;
   var maxOffset = window.innerHeight/4;
   
+  document.body.style["opacity"] = 1;
+  
   splash.style['height'] = iHeight + 'px';
   date.innerHTML = (new Date()).getYear() + 1900;
   };
