@@ -56,38 +56,18 @@ table {
   position: absolute;
   top: 0;
   width: 100%;
-  background: linear-gradient(to bottom, #5912e8 2%,#972fed 100%)  text-align: center;
+  background: radial-gradient(ellipse at center, rgba(199,199,199,1) 0%, rgba(199,199,199,1) 12%, rgba(239,239,239,1) 63%, rgba(239,239,239,1) 100%);background-size: cover;
+  color: white;
   font-weight: 100; 
   font-family: 'Raleway', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-  align-items: center;
-  -webkit-align-items: center;
-}
-
-#header{
-  margin-top: 0;
-  height: 200px;
 }
 
 #splash #header h1{
   font-size: 6em;
-  background: linear-gradient(90deg, #EA5FFF 40%, #00FF94 70%); 08   -webkit-background-clip: text; 09   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;   
-  -moz-text-fill-color: transparent;
 }
 
 #splash #header h2{ 
 	font-size: 1.6em; 
-	background: linear-gradient(90deg, #DF1AFF 40%, #FFC200 70%);   
-	-webkit-background-clip: text;   
-	-webkit-text-fill-color: transparent;   
-	-moz-background-clip: text;   
-	-moz-text-fill-color: transparent;
 }
 
 #content{
