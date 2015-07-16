@@ -49,7 +49,10 @@ table {
 
 
 
-
+body{
+  transition: opacity .5s ease-out;
+  opacity: 0;
+}
 
 
 #splash{
