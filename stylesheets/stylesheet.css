@@ -94,8 +94,6 @@ table {
   max-width: 800px;
   padding: 30px 40px 0;
   margin: 20px auto 0;
-  border: 1px solid lightgray;
-  box-shadow: 1px 1px 1px lightgray;
   font-family: 'PT Serif', 'Raleway', 'Source Sans Pro', serif;
   display: block;
 }
