@@ -84,17 +84,14 @@ table {
   position: absolute;
   padding: 6% 0 10%;
   box-sizing: border-box;
-  background: #EFEFEF;
 }
 
 
 #content .section{
-  background: white;
   font-size: 16px;
   box-sizing: border-box;
-  line-height: 1.7em;
-  width: 90%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 800px;
   padding: 30px 40px 0;
   margin: 20px auto 0;
   border: 1px solid lightgray;
@@ -104,6 +101,8 @@ table {
 }
 p{
 	margin-bottom: 30px;
+	line-height: 1.7em;
+	font-size: 1.3em;
 }
 
 .links a:not(:last-child) {
@@ -117,33 +116,25 @@ hr{
 	border-top-color: black;
 }
 
-.me{
-	height: 250px;
-	width: 250px;
-	border-radius: 250px;
-	background: url('../images/me.jpg');
-	background-size: cover;
-	background-position: center 23%;
-	margin: 0 auto 50px;
-	box-shadow: 0 0 7px rgb(139, 139, 139);
-}
 
 p.links {
 	padding: 10px 0;
 }
 
 .label {
-  font-size: 1.2em;
-  border-bottom: 1px solid rgb(255, 145, 145);
+  font-size: 2em;
+  border-bottom: 1px solid #5912e8;
   margin-bottom: 20px;
-  width: 90%;
   font-family: Raleway, 'Helvetica Neue', sans-serif;
 }
 
-a, a:hover, a:visited{
+a, a:visited{
   color: black !important;
-  background: #F8DFFF;
 }
+
+ a:hover{
+ 	background: #EFDBFF;
+ }
 
 .bold{
   font-weight: bold;
@@ -153,30 +144,3 @@ a, a:hover, a:visited{
 	display: none !important;
 }
 
-
-@media all and (max-device-width: 700px) {
-  #splash h1{ font-size: 3em; }
-  #main-text{
-  	margin-top: 0 !important;   
-  	min-width: 90% !important;
-  	font-size: 2.5em !important;}
-}
-
-.mobile #splash h1{ font-size: 3em; }
-
-.mobile #main-text{
-  	margin-top: 0 !important;   
-  	min-width: 90% !important;
-  	font-size: 2.5em !important;
-}
-
-.mobile .me{
-  height: 400px;
-  width: 400px;
-  border-radius: 200px;
-  margin-bottom: 100px;
-}
-
-.mobile #header{
-  font-size: 1.3em !important;
-}
