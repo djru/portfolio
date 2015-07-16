@@ -14,7 +14,6 @@ window.onscroll = function(){
   var iHeight = window.innerHeight;
   var offset = window.pageYOffset;
   var maxOffset = iHeight/4;
-  var translate =  Math.floor(offset * .4);
   
   if(isMobile){
     var scale = (1/(offset/300 + 1)).toFixed(2);
@@ -24,8 +23,8 @@ window.onscroll = function(){
   }
   
   if (offset >= 0 && offset <= iHeight){
-  header.style['transform'] = 'translateY(' + translate + 'px) ' + 'scale(' + scale + ')';
-  header.style['-webkit-transform'] = 'translateY(' + translate + 'px) ' + 'scale(' + scale + ')';
+  header.style['transform'] =  'scale(' + scale + ')';
+  header.style['-webkit-transform'] = 'scale(' + scale + ')';
   }
 };
 
