@@ -132,3 +132,12 @@ a, a:visited{
     background: none !important;
 }
 
+.footer-decoration {
+    font-family: monospace;
+    white-space: pre;
+    font-size: .5em;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(223, 183, 255);
+}
+
