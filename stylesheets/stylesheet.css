@@ -74,7 +74,9 @@ table {
 }
 
 #splash #header h2{ 
-	font-size: 1.6em; 
+  font-size: 1.6em; 
+  padding-left: 6px;
+  font-weight: 600;
 }
 
 #content{
