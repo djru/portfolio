@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
 var splash = document.querySelector('#splash');
 var header = document.querySelector('#header');
+var date = document.querySelector('#date');
 
 var isMobile = false;
 isMobile = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone|iPad|iPod/i) ;
@@ -33,6 +34,7 @@ window.onload = function(){
   var maxOffset = window.innerHeight/4;
   
   splash.style['height'] = iHeight + 'px';
+  date.innerHTML((new Date()).getYear() + 1900);
   };
 
 window.onresize = function(){
