@@ -33,9 +33,6 @@ window.onload = function(){
   var maxOffset = window.innerHeight/4;
   
   splash.style['height'] = iHeight + 'px';
-
-  
-  m.classList.remove('invisible');
   };
 
 window.onresize = function(){
