@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function(){
 var header = document.querySelector('#header');
 var content = document.querySelector('#content');
 var splash = document.querySelector('#splash');
-var header = document.querySelector('#header');
 var m = document.querySelector('#main-text');
 
 var isMobile = false;
@@ -43,7 +42,6 @@ window.onload = function(){
   content.style['top'] = iHeight + 'px';
   content.style['min-height'] = iHeight + 'px';
   content.style['height'] = content.clientheight - 100 + 'px';
-  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
   
   m.classList.remove('invisible');
   };
@@ -54,7 +52,6 @@ window.onresize = function(){
   splash.style['height'] = iHeight + 'px';
   content.style['min-height'] = iHeight + 'px';
   content.style['top'] = iHeight + 'px';
-  header.style['margin-top'] = 'calc(' + Math.floor(iHeight/2) + 'px - 100px)';
   }
 }
 }, false);
