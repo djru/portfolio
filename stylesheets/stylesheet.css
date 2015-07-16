@@ -68,6 +68,10 @@ body{
   -webkit-align-items: center;
 }
 
+#header{
+	max-width: 90%;
+}
+
 #header h1{
   font-size: 6em;
   font-weight: 100; 
