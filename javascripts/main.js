@@ -33,7 +33,7 @@ window.onload = function(){
   var maxOffset = window.innerHeight/4;
   
   document.body.style["opacity"] = 1;
-  document.body.style["transform"] = "scale(1)";
+  // document.body.style["transform"] = "scale(1)";
   document.body.style["filter"] = "none";
   document.body.style["-webkit-filter"] = "none";
   
