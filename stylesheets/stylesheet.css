@@ -52,7 +52,7 @@ table {
 body{
   transition: all .6s linear;
   opacity: 0;
-  transform: scale(0.99);
+  /*transform: scale(0.99);*/
   filter: blur(3px);
   -webkit-filter: blur(3px);
 }
