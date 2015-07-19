@@ -33,6 +33,7 @@ window.onload = function(){
   var maxOffset = window.innerHeight/4;
   
   document.body.style["opacity"] = 1;
+  document.body.style["transform"] = "scale(1)";
   
   splash.style['height'] = iHeight + 'px';
   date.innerHTML = (new Date()).getYear() + 1900;
