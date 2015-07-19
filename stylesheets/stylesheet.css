@@ -50,7 +50,7 @@ table {
 
 
 body{
-  transition: all .35s linear;
+  transition: all .6s linear;
   opacity: 0;
   transform: scale(0.99);
   filter: blur(3px);
