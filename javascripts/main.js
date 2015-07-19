@@ -34,6 +34,8 @@ window.onload = function(){
   
   document.body.style["opacity"] = 1;
   document.body.style["transform"] = "scale(1)";
+  document.body.style["filter"] = "none";
+  document.body.style["-webkit-filter"] = "none";
   
   splash.style['height'] = iHeight + 'px';
   date.innerHTML = (new Date()).getYear() + 1900;
