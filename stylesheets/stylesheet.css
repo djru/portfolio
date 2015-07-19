@@ -50,9 +50,9 @@ table {
 
 
 body{
-  transition: all .4s linear;
+  transition: all .35s linear;
   opacity: 0;
-  transform: scale(0.98);
+  transform: scale(0.99);
   filter: blur(3px);
   -webkit-filter: blur(3px);
 }
