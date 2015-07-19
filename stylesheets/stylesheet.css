@@ -50,8 +50,7 @@ table {
 
 
 body{
-  transition: opacity .6s ease-out;
-  transition: transform .4s ease-out;
+  transition: opacity, transform .6s ease-out;
   opacity: 0;
   transform: scale(0.9);
 }
