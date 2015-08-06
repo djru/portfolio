@@ -4,7 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400|Raleway:200,400);
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -93,10 +93,10 @@ body{
 
 
 #content .section{
-  font-size: 16px;
+  font-size: 15px;
   box-sizing: border-box;
 
-  max-width: 800px;
+  max-width: 660px;
   padding: 30px 40px 0;
   margin: 20px auto 0;
   font-family: 'PT Serif', 'Raleway', 'Source Sans Pro', serif;
@@ -105,7 +105,7 @@ body{
 p{
 	margin-bottom: 30px;
 	line-height: 1.7em;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-family: monospace;
 }
 
