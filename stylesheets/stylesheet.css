@@ -131,22 +131,16 @@ a, a:visited{
 .links-icons img {
     height: 64px;
     -webkit-filter: hue-rotate(210deg);
-    margin: 0 20px;
+    margin: 0 3xz0px;
 }
 
 .links-icons {
     text-align: center;
-    margin: 0 auto;
-    width: 90%;
-    max-width: 500px;
-    border: 1px solid purple;
-    border-radius: 8px;
-    padding: 10px;
     margin-bottom: 50px;
 }
 
-.links-icons a:hover {
-    background: none !important;
+.links-icons a {
+    background-color: transparent !important;
 }
 
 .footer-decoration {
