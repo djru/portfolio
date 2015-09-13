@@ -111,9 +111,8 @@ p{
 
 
 .label {
-  font-size: 2em;
-  border-bottom: 2px solid #5912e8;
-  margin-bottom: 20px;
+  font-size: 1.4em;
+  margin-bottom: px;
   font-family: 'Cutive';
 }
 
@@ -137,6 +136,13 @@ a, a:visited{
 
 .links-icons {
     text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid purple;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
 .links-icons a:hover {
