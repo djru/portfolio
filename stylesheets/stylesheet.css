@@ -129,9 +129,9 @@ a, a:visited{
 }
 
 .links-icons img {
-    height: 64px;
+    height: 40px;
     -webkit-filter: hue-rotate(210deg);
-    margin: 0 3xz0px;
+    margin: 0 30px;
 }
 
 .links-icons {
