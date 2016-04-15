@@ -51,8 +51,7 @@ table {
 
 
 .links-icons img {
-    height: 40px;
-    -webkit-filter: hue-rotate(210deg);
+    height: 30px;
     margin-right: 10px;
 }
 
