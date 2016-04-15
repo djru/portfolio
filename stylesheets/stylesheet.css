@@ -25,7 +25,7 @@ body {
 }
 
 .line {
-    width: 100%;
+    width: 90%;
     height: 4px;
     background: linear-gradient(to right, #31f7e6 0%,#3cff3c 100%);
 }
