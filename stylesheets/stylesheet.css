@@ -56,9 +56,6 @@ table {
     margin: 0 30px;
 }
 
-body {
-}
-
 h1 {
     font-family: Lato, sans-serif;
     color: #31F7E6;
@@ -68,6 +65,7 @@ h1 {
 body {
     padding-top: 10px;
     padding-left: 200px;
+    font-family: 'open sans', sans-serif;
 }
 
 .line {
@@ -110,17 +108,10 @@ p.resume {
 .footer-decoration {
     font-family: monospace;
     white-space: pre;
-    font-size: 4px;
+    font-size: 6px;
     text-align: center;
     margin-top: 200px;
     color: rgb(223, 183, 255);
 }
-.footer-info {
-    font-family: monospace;   
-    white-space: pre;   
-    font-size: 8px;   
-    text-align: center;      
-    color: rgb(223, 183, 255);
-    margin-bottom: 30px;
-}
+
 
