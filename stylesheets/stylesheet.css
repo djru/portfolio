@@ -12,6 +12,16 @@ by Jason Costello, @jsncostello
     margin-right: 10px;
 }
 
+a, a:visited {
+    color: #31f7e6;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #3cff3c;
+    text-decoration: none !important;
+}
+
 h1 {
     font-family: Lato, sans-serif;
     color: #31F7E6;
