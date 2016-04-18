@@ -26,6 +26,9 @@ h1 {
     font-family: Lato, sans-serif;
     color: #31F7E6;
     font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-rendering: optimizeLegibility;
 }
 
 body {
@@ -46,6 +49,7 @@ h2 {
     font-family: Lato;
     color: #31F7E6;
     font-weight: bold;
+    letter-spacing: 4px;
 }
 
 h3 {
