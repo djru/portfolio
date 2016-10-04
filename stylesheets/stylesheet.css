@@ -4,26 +4,16 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:300,700|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700|PT+Serif:400,700);
 
 
-.links-icons img {
-    height: 30px;
-    margin-right: 10px;
-}
 
 a, a:visited {
-    color: black;
-}
-
-a:hover {
-    color: #3cff3c;
-    text-decoration: none !important;
+    color: white;
 }
 
 h1 {
     font-family: Lato, sans-serif;
-    /*color: #31F7E6;*/
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -33,44 +23,37 @@ h1 {
 body {
     padding-top: 10px;
     padding-left: 200px;
-    font-family: 'open sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    background: #6b16c1;
+    color: white;
 }
 
 .line {
     width: 90%;
     height: 4px;
-    background: linear-gradient(to right, #31f7e6 0%,#3cff3c 100%);
+    background: linear-gradient(to right, white 0%, #6b16c1 100%);
 }
 
 h2 {
     margin-top: 100px;
     font-size: 5em;
-    font-family: Lato;
-    color: #31F7E6;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
-h3 {
-    display: block;
-    width: 500px;
-    margin-top: 30px;
-    font-weight: bold;
-    font-size: 1em;
-}
-
 p.main {
     display: block;
-    width: 500px;
+    width: 600px;
     margin-top: 30px;
-    font-size: .8em;
-    line-height: 27px;
+    line-height: 36px;
 }
 
 p.resume {
-    width: 500px;
+    width: 600px;
     margin-top: 30px;
-    font-size: .8em;
 }
 
-
+#me{
+  font-weight: bold;
+  font-style: italic;
+}
