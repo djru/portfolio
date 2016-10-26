@@ -9,7 +9,7 @@ by Jason Costello, @jsncostello
 
 
 a, a:visited {
-    color: white;
+    color: inherit;
 }
 
 h1 {
