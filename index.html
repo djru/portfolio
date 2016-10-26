@@ -33,5 +33,12 @@
     </div>
     <script type="text/javascript" src="javascripts/main.js"></script>
     <script src="//fast.eager.io/6CWQBCRpqY6m.js"></script>
+       <script>
+              var colors = [['#370953', '#cafbad'],['#1f1f1f','#06709f'],['#6b16c1', 'white'],['#c12918','#40dfed'],['#370f30','#c9f6d1']];
+              var n = Math.floor(Math.random()*colors.length);
+              document.querySelector('body').style.color = colors[n][0];
+              document.querySelector('body').style.background = colors[n][1];
+              document.querySelector('.line').style.background = "linear-gradient(to right, "+ colors[n][0] +" 0%, "+ colors[n][1] +" 100%)";
+       </script>
   </body>
 </html>
